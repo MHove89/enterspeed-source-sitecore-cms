@@ -9,9 +9,9 @@ namespace Enterspeed.Source.SitecoreCms.V10.Models.Configuration
     {
         public string Name { get; set; }
 
-        public string BaseUrl { get; set; }
-
         public string StartPathUrl { get; set; }
+
+        public string BaseUrl { get; set; }
 
         public string MediaBaseUrl { get; set; }
 
@@ -20,6 +20,7 @@ namespace Enterspeed.Source.SitecoreCms.V10.Models.Configuration
         public string HomeItemPath { get; set; }
 
         public string SiteItemPath { get; set; }
+
         public List<string> DictionariesItemPaths { get; set; }
 
         public bool IsHttpsEnabled { get; set; }

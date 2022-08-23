@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterspeed.Source.SitecoreCms.V9", "src\Enterspeed.Source.SitecoreCms.V9\Enterspeed.Source.SitecoreCms.V9.csproj", "{799B0263-B2B2-4547-9F69-9837FB8EAC72}"
 EndProject
@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterspeed.Source.SitecoreC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterspeed.Source.SitecoreCms.V8", "src\Enterspeed.Source.SitecoreCms.V8\Enterspeed.Source.SitecoreCms.V8.csproj", "{B7B4908E-4895-400D-8436-1D6DB3E56CF4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterspeed.Source.SitecoreCms.V10", "Enterspeed.Source.SitecoreCms.V10", "{BFFB9861-6B38-4742-AF4E-4B1360E97B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterspeed.Source.SitecoreCms.V10", "src\Enterspeed.Source.SitecoreCms.V10\Enterspeed.Source.SitecoreCms.V10\Enterspeed.Source.SitecoreCms.V10.csproj", "{523F6889-51C3-48D6-BC36-BDD52D86217E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +38,10 @@ Global
 		{B7B4908E-4895-400D-8436-1D6DB3E56CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B4908E-4895-400D-8436-1D6DB3E56CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B4908E-4895-400D-8436-1D6DB3E56CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{523F6889-51C3-48D6-BC36-BDD52D86217E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523F6889-51C3-48D6-BC36-BDD52D86217E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523F6889-51C3-48D6-BC36-BDD52D86217E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523F6889-51C3-48D6-BC36-BDD52D86217E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,9 +49,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{799B0263-B2B2-4547-9F69-9837FB8EAC72} = {9DD96787-C3B7-427A-8B20-5571AEF4E92B}
 		{B7B4908E-4895-400D-8436-1D6DB3E56CF4} = {A752BEE1-BCFC-4606-BC4F-6D2F4EA2B258}
+		{523F6889-51C3-48D6-BC36-BDD52D86217E} = {BFFB9861-6B38-4742-AF4E-4B1360E97B27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {18883A81-ACF4-4B07-9002-B1BDFAAC75F0}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = lib\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;lib\packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {18883A81-ACF4-4B07-9002-B1BDFAAC75F0}
 	EndGlobalSection
 EndGlobal

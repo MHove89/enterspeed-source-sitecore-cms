@@ -20,7 +20,8 @@ namespace Enterspeed.Source.SitecoreCms.V8.Services.DataProperties.DefaultFieldC
 
         public bool CanConvert(Field field)
         {
-            return field != null && field.TypeKey.Equals("multi-line text", StringComparison.OrdinalIgnoreCase);
+            return field != null && field.TypeKey.Equals("multi-line text", StringComparison.OrdinalIgnoreCase) ||
+                   field != null && field.TypeKey.Equals("memo", StringComparison.OrdinalIgnoreCase);
         }
 
         public IEnterspeedProperty Convert(Item item, Field field, EnterspeedSiteInfo siteInfo, List<IEnterspeedFieldValueConverter> fieldValueConverters, EnterspeedSitecoreConfiguration configuration)

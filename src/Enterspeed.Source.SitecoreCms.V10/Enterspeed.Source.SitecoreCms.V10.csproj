@@ -369,6 +369,12 @@
     <Content Include="..\..\..\lib\settings\stylecop.json">
       <Link>stylecop.json</Link>
     </Content>
+    <Content Include="_content\App_Config\Include\Enterspeed\Enterspeed.SitecoreCms.V8.config" />
+    <Content Include="_content\Views\Enterspeed\Index.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_content\Views\Enterspeed\Web.config" />
+    <Content Include="_nuget\Enterspeed.Source.SitecoreCms.V8.nuspec" />
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>

@@ -47,11 +47,12 @@ namespace Enterspeed.Source.SitecoreCms.V8.Services
             _userManager = userManager;
         }
 
-        public IDictionary<string, IEnterspeedProperty> GetProperties(Item item,  EnterspeedSitecoreConfiguration configuration)
+        public IDictionary<string, IEnterspeedProperty> GetProperties(Item item, EnterspeedSitecoreConfiguration configuration)
         {
             if (item.IsDictionaryItem())
             {
-                IDictionary<string, IEnterspeedProperty> dictionaryProperties = _fieldConverter.ConvertFields(item, null, _fieldValueConverters.ToList(), configuration);
+                IDictionary<string, IEnterspeedProperty> dictionaryProperties = _fieldConverter.ConvertFields(item, null, _fieldValueConverters.ToList(),
+                    configuration);
                 dictionaryProperties.Add(MetaData, CreateDictionaryMetaData(item));
 
                 return dictionaryProperties;

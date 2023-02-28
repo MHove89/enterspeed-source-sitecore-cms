@@ -67,5 +67,11 @@ namespace Enterspeed.Source.SitecoreCms.V10.Services
 
             _connectionEstablishedDate = DateTime.Now;
         }
+
+        public void Dispose()
+        {
+            _httpClientConnection = null;
+            _connectionEstablishedDate = null;
+        }
     }
 }

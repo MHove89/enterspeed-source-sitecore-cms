@@ -22,7 +22,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterspeed.Source.SitecoreC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterspeed.Source.SitecoreCms.V10", "Enterspeed.Source.SitecoreCms.V10", "{BFFB9861-6B38-4742-AF4E-4B1360E97B27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterspeed.Source.SitecoreCms.V10", "src\Enterspeed.Source.SitecoreCms.V10\Enterspeed.Source.SitecoreCms.V10\Enterspeed.Source.SitecoreCms.V10.csproj", "{523F6889-51C3-48D6-BC36-BDD52D86217E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterspeed.Source.SitecoreCms.V10", "src\Enterspeed.Source.SitecoreCms.V10\Enterspeed.Source.SitecoreCms.V10.csproj", "{523F6889-51C3-48D6-BC36-BDD52D86217E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,7 +52,7 @@ Global
 		{523F6889-51C3-48D6-BC36-BDD52D86217E} = {BFFB9861-6B38-4742-AF4E-4B1360E97B27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = lib\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;lib\packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 		SolutionGuid = {18883A81-ACF4-4B07-9002-B1BDFAAC75F0}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = lib\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;lib\packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;lib\packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal
